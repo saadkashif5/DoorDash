@@ -1,0 +1,42 @@
+.reviews-container {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f8f8f8;
+  }
+  
+  .reviews-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .reviews-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .review-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .review-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .review-card h3 {
+    color: #cb642a;
+    margin-bottom: 5px;
+  }
+  
+  .stars {
+    color: gold;
+    font-size: 1.2rem;
+  }
+  
